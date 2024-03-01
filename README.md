@@ -11,9 +11,9 @@ The folder should join with the already existing lua folder.
 Using this is very simple as explained below
 ```
 local matrixObject = AMatrix({1,2,3},{4,5,6})
-local multiplyMatrix = AMatrix({1,2,3},{4,5,6})
+local matrixObject2 = AMatrix({1,2,3},{4,5,6})
 
-local multipliedOutput = matrixObject:Mul(multiplyMatrix)
+local multipliedOutput = matrixObject:Mul(matrixObject2)
 
 multipliedOutput:PrintMatrix()
 ```
